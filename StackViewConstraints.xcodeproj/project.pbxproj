@@ -12,6 +12,7 @@
 		9103B37A1BB932F000043E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9103B3781BB932F000043E36 /* Main.storyboard */; };
 		9103B37C1BB932F000043E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9103B37B1BB932F000043E36 /* Assets.xcassets */; };
 		9103B37F1BB932F000043E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9103B37D1BB932F000043E36 /* LaunchScreen.storyboard */; };
+		9103B3871BB9330B00043E36 /* MyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9103B3861BB9330B00043E36 /* MyStackView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9103B37B1BB932F000043E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9103B37E1BB932F000043E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9103B3801BB932F000043E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9103B3861BB9330B00043E36 /* MyStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				9103B3741BB932F000043E36 /* AppDelegate.swift */,
-				9103B3761BB932F000043E36 /* ViewController.swift */,
-				9103B3781BB932F000043E36 /* Main.storyboard */,
 				9103B37B1BB932F000043E36 /* Assets.xcassets */,
-				9103B37D1BB932F000043E36 /* LaunchScreen.storyboard */,
 				9103B3801BB932F000043E36 /* Info.plist */,
+				9103B37D1BB932F000043E36 /* LaunchScreen.storyboard */,
+				9103B3781BB932F000043E36 /* Main.storyboard */,
+				9103B3861BB9330B00043E36 /* MyStackView.swift */,
+				9103B3761BB932F000043E36 /* ViewController.swift */,
 			);
 			path = StackViewConstraints;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			files = (
 				9103B3771BB932F000043E36 /* ViewController.swift in Sources */,
 				9103B3751BB932F000043E36 /* AppDelegate.swift in Sources */,
+				9103B3871BB9330B00043E36 /* MyStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
