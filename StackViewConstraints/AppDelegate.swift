@@ -3,7 +3,6 @@
 //  StackViewConstraints
 //
 //  Created by Bjarte Skjørestad on 28/09/15.
-//  Copyright © 2015 Time and Date AS. All rights reserved.
 //
 
 import UIKit
